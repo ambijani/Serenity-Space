@@ -1,0 +1,23 @@
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(to right, #ff7eb3, #9358f7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  .back-button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #9358f7, #7bbfff);
+  }
+  
+  .back-button i {
+    margin-right: 0.5rem;
+  }
+  

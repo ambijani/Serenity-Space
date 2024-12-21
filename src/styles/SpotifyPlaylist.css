@@ -1,0 +1,102 @@
+/* Overall Page Styling */
+.spotify-page {
+    min-height: 100vh;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Page Header */
+  .spotify-page h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #a78bfa;
+    background: linear-gradient(to right, #a78bfa, #7c3aed);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+    text-shadow: 0px 4px 10px rgba(167, 139, 250, 0.5);
+    letter-spacing: 1px;
+  }
+  
+  /* Subtext */
+  .spotify-page p {
+    font-size: 1.2rem;
+    color: #d1d5db;
+    margin-bottom: 2rem;
+  }
+  
+  /* Spotify Iframe */
+  .spotify-iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+    margin: 2rem 0;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .spotify-iframe:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.15);
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #f87171;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+  }
+  
+  /* Buttons Styling */
+  .spotify-page button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease;
+  }
+  
+  /* I'm not feelin' this Button */
+  .not-feeling-btn {
+    background: linear-gradient(to right, #34d399, #10b981);
+    margin: 1rem 0;
+  }
+  
+  .not-feeling-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(52, 211, 153, 0.5);
+  }
+  
+  /* Explore Other Options Button */
+  .explore-options-btn {
+    background: linear-gradient(to right, #4b5563, #1f2937);
+    margin: 1rem 0;
+  }
+  
+  .explore-options-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(107, 114, 128, 0.5);
+  }
+  
+  /* Centering for Buttons */
+  .button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  

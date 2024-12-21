@@ -1,0 +1,94 @@
+/* General Styling for the About Page */
+.about-page {
+    min-height: 100vh;
+    padding: 2rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  /* Page Title */
+  .about-page h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, #ff7eb3, #9358f7, #7bbfff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Paragraph Text */
+  .about-page p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 2rem;
+  }
+  
+  /* Section Headings */
+  .about-page h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+    color: #d1d5db;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* List Items */
+  .about-page ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .about-page ul li {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.9);
+    background: linear-gradient(to right, #14b8a6, #3b82f6);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-page ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    cursor: default;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-page {
+      padding: 1.5rem;
+    }
+  
+    .about-page h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-page p {
+      font-size: 1rem;
+    }
+  
+    .about-page h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-page ul li {
+      font-size: 1rem;
+    }
+  }  

@@ -1,0 +1,131 @@
+.mood-tracker {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Header Styling */
+.mood-tracker h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #a78bfa;
+  margin-bottom: 1rem;
+}
+
+.mood-tracker h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+/* Input and Submit Button Container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.input-container input {
+  width: 90%;
+  max-width: 600px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s ease;
+}
+
+.input-container input:focus {
+  box-shadow: 0 0 8px #a78bfa;
+  outline: none;
+}
+
+.input-container button {
+  background: linear-gradient(to right, #a78bfa, #6366f1);
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-container button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(99, 102, 241, 0.7);
+}
+
+/* AI Response Container */
+.response-container {
+  margin-top: 2rem;
+  max-width: 800px;
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.response-container h3 {
+  color: #14b8a6;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.response-container ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  text-align: left;
+  color: #e5e7eb;
+  line-height: 1.75rem;
+}
+
+/* Explore Options Section */
+.options-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+
+.options-container button {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.options-container button:nth-child(2) {
+  background: linear-gradient(to right, #14b8a6, #3b82f6);
+}
+
+.options-container button:nth-child(3) {
+  background: linear-gradient(to right, #ec4899, #ef4444);
+}
+
+.options-container button:nth-child(4) {
+  background: linear-gradient(to right, #82afa0, #059669);
+}
+
+.options-container button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
